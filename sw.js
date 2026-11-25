@@ -1,4 +1,4 @@
-const KEY='youjindu-shell-v1';
+const KEY='youjindu-shell-v2';
 const BASE=self.registration.scope;
 const FILES=['./','./index.html','./app.js','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(KEY).then(c=>c.addAll(FILES.map(path=>new Request(new URL(path,BASE),{cache:'reload'}))))));

@@ -10,3 +10,5 @@
 应用文件位于仓库根目录。仓库 **Settings → Pages → Deploy from a branch → main / (root)**。每次更新推送到同一分支和路径；更新界面使用 `sw.js` 中新的 `youjindu-shell-vN` 缓存版本，不更改 `app.js` 的数据键。不要提交个人 JSON 备份。
 
 可用 Safari 打开 Pages 地址，在分享菜单选择「添加到主屏幕」。
+
+iPhone 建议先添加到主屏幕并从图标打开，再开始正式打卡。如果已在 Safari 录过数据，请先导出备份，再在主屏幕版里恢复；恢复会替换该版本当前位置的记录。
